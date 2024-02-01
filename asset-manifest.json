@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RafaelPortfolio.github.io/static/css/main.1b0f9850.css",
-    "main.js": "/RafaelPortfolio.github.io/static/js/main.fc788b24.js",
+    "main.js": "/RafaelPortfolio.github.io/static/js/main.162e96c1.js",
     "static/css/64.bba8fa55.chunk.css": "/RafaelPortfolio.github.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/RafaelPortfolio.github.io/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/RafaelPortfolio.github.io/static/css/769.b3cbb36b.chunk.css",
@@ -25,7 +25,7 @@
     "index.html": "/RafaelPortfolio.github.io/index.html",
     "static/media/talksCardBack.svg": "/RafaelPortfolio.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.1b0f9850.css.map": "/RafaelPortfolio.github.io/static/css/main.1b0f9850.css.map",
-    "main.fc788b24.js.map": "/RafaelPortfolio.github.io/static/js/main.fc788b24.js.map",
+    "main.162e96c1.js.map": "/RafaelPortfolio.github.io/static/js/main.162e96c1.js.map",
     "64.bba8fa55.chunk.css.map": "/RafaelPortfolio.github.io/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/RafaelPortfolio.github.io/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/RafaelPortfolio.github.io/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.1b0f9850.css",
-    "static/js/main.fc788b24.js"
+    "static/js/main.162e96c1.js"
   ]
 }
