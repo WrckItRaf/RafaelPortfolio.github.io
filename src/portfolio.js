@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I am a qualified and professional web developer 🚀 with five years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail."
   ),
-  resumeLink:
-    "#", // Set to empty to hide the button
+  resumeLink: "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -99,7 +98,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    }
     // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
@@ -125,7 +124,7 @@ const educationInfo = {
       schoolName: "Access Computer College",
       logo: require("./assets/images/accesslogo.c124974dd8e89cef9074.png"),
       subHeader: "Bachelor of Science in Information Technology",
-      duration: "2013 - 2017",
+      duration: "2013 - 2017"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -136,7 +135,7 @@ const educationInfo = {
       schoolName: "Quirino High School",
       logo: require("./assets/images/download (2).jpg"),
       // subHeader: "Bachelor of Science in Computer Science",
-      duration: "2005 - 2010",
+      duration: "2005 - 2010"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -230,12 +229,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR WEB APPLICATION WEBSITES",
+  subtitle:
+    "SOME COMPANIES THAT I HELPED TO CREATE THEIR WEB APPLICATION WEBSITES",
   projects: [
     {
       image: require("./assets/images/CS Logo 2022.png"),
       projectName: "CS ONLINE ACCESS PORTAL",
-      projectDesc: "Below are the Projects I worked under the University of the Philippines College of Science",
+      projectDesc:
+        "Below are the Projects I worked under the University of the Philippines College of Science",
       footerLink: [
         {
           name: "Online Science Portal",
@@ -302,7 +303,8 @@ const bigProjects = {
     {
       image: require("./assets/images/image 2.png"),
       projectName: "Balibago Waterworks",
-      projectDesc: "Below are the Projects I worked under the Balibago waterworks System Inc. (BWSI)",
+      projectDesc:
+        "Below are the Projects I worked under the Balibago waterworks System Inc. (BWSI)",
       footerLink: [
         {
           name: "Performance Evaluation v2",
@@ -314,7 +316,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -338,7 +340,7 @@ const achievementSection = {
         {
           name: "Credly Certification",
           url: "https://www.credly.com/badges/2c25c097-4def-47f4-9a4c-b12352acb0fb/public_url"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -351,8 +353,7 @@ const achievementSection = {
     },
     {
       title: "Course belt - Wordpress and Marketing Course - 2020",
-      subtitle:
-        "Wordpress and Marketing Course Seminar attended year 2020.",
+      subtitle: "Wordpress and Marketing Course Seminar attended year 2020.",
       image: require("./assets/images/wordpress.51915fb37b9e76913fc4.webp"),
       imageAlt: "Course belt wordpress 2020",
       footerLink: [
@@ -364,11 +365,15 @@ const achievementSection = {
     },
     {
       title: "STEP UP: Computer System Servicing - Nov 2023",
-      subtitle: "Rendered 40 hours of training in Skills Trainings and Enhancement Program for UP Diliman Employees (STEP UP) on Computer Systems Servicing",
+      subtitle:
+        "Rendered 40 hours of training in Skills Trainings and Enhancement Program for UP Diliman Employees (STEP UP) on Computer Systems Servicing",
       image: require("./assets/images/HRDO l&d logo_2023.66cf241ba2d998ad7d27.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "STEP UP: Computer System Servicing", url: "https://drive.google.com/file/d/12G4wVphpwjJt23GMVb98zNEGXy-KXAPP/view"},
+        {
+          name: "STEP UP: Computer System Servicing",
+          url: "https://drive.google.com/file/d/12G4wVphpwjJt23GMVb98zNEGXy-KXAPP/view"
+        },
         {
           name: "UPHRDO: SWOT Analysis Workshop",
           url: "https://drive.google.com/file/d/1pxpCJ8dTABkA5Ui-x9YTb1ZmD1kqAHj1/view"
@@ -393,7 +398,10 @@ const achievementSection = {
       image: require("./assets/images/SOFTCON-Logo.png"),
       imageAlt: "Softcon Logo",
       footerLink: [
-        {name: "Certificate of Attendance", url: "https://drive.google.com/file/d/1OqdMigyOQJ7QZb6r7vc977XV3BhWWRtG/view?usp=sharing"}
+        {
+          name: "Certificate of Attendance",
+          url: "https://drive.google.com/file/d/1OqdMigyOQJ7QZb6r7vc977XV3BhWWRtG/view?usp=sharing"
+        }
       ]
     },
     {
@@ -402,7 +410,10 @@ const achievementSection = {
       image: require("./assets/images/udemy.png"),
       imageAlt: "Udemy Logo",
       footerLink: [
-        {name: "Certificate of Completion", url: "https://www.udemy.com/certificate/UC-0181ae23-b180-46d3-a8c8-58eb6307b94d/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"}
+        {
+          name: "Certificate of Completion",
+          url: "https://www.udemy.com/certificate/UC-0181ae23-b180-46d3-a8c8-58eb6307b94d/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+        }
       ]
     }
   ],
