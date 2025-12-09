@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ralph Sinco",
+  title: "Hi all, I'm Ralph",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a qualified and professional web developer 🚀 with five years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/WrckItRaf",
+  linkedin: "https://www.linkedin.com/in/rafael-renz-sinco-409b732a9//",
+  gmail: "rsinco20@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/rafaelrenz.sinco/",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -73,24 +73,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -108,14 +100,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
+    //  {
+    //   skillName: "n8n",
+    //   fontAwesomeClassname: "fab fa-n8n"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +122,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Access Computer College",
+      logo: require("./assets/images/accesslogo.c124974dd8e89cef9074.png"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "2013 - 2017",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Quirino High School",
+      logo: require("./assets/images/download (2).jpg"),
+      // subHeader: "Bachelor of Science in Computer Science",
+      duration: "2005 - 2010",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -154,15 +150,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +170,50 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Balibago Waterworks System Inc.",
+      companylogo: require("./assets/images/image 2.png"),
+      date: "2024 – Present",
+      desc: "Develop and maintain software applications used by the company.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Create tools and features to improve internal workflows and system efficiency.",
+        "Collaborate with team members to design, test, and deploy new system functionalities."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior / Senior ICT Developer",
+      company: "University of the Philippines",
+      companylogo: require("./assets/images/up.2cbb64656e4d63355158.png"),
+      date: "2021 – 2024",
+      desc: "Develop a centralized holistic online database for the College of Science.",
+      descBullets: [
+        "Develop a data mining program to obtain subsets of the centralized online database for the CS.",
+        "Provides technical support in the development of analysis tools/systems."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "IT Officer",
+      company: "LEARN UP",
+      companylogo: require("./assets/images/download.png"),
+      date: "2019 – 2021",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Maintenance and Integration in all company website.",
+        "Troubleshooting and solving computer software/hardware faults.",
+        "Installing and configuring computer hardware, software and networks."
+      ]
+    },
+    {
+      role: "Technical Support Specialist",
+      company: "Lyceum of the Philippines",
+      companylogo: require("./assets/images/lpulogo.472c8dcdfd3066238156.png"),
+      date: "2017-2019",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Primary responsibility is to provide student support and customer service.",
+        "Be present, visible, and available to students requiring technical assistance.",
+        "Installing and configuring computer hardware, software and networks."
+      ]
     }
   ]
 };
@@ -213,31 +230,91 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR WEB APPLICATION WEBSITES",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/CS Logo 2022.png"),
+      projectName: "CS ONLINE ACCESS PORTAL",
+      projectDesc: "Below are the Projects I worked under the University of the Philippines College of Science",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Online Science Portal",
+          url: "https://online.science.upd.edu.ph/CSCentralizedPortal/index.php"
+        },
+        {
+          name: "Limited Access Module",
+          url: "https://www.canva.com/design/DAF7oYSZRkk/xk2v9EsvSHlOyRf7gTq6Iw/view?utm_content=DAF7oYSZRkk&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+        },
+        {
+          name: "ODP Module",
+          url: ""
+        },
+        {
+          name: "Faculty Academic Prodile Module",
+          url: ""
+        },
+        {
+          name: "Procurement Information Module",
+          url: ""
+        },
+        {
+          name: "Graduate Student Module",
+          url: ""
+        },
+        {
+          name: "Pursuit",
+          url: ""
+        },
+        {
+          name: "MOU/MOA",
+          url: ""
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/download.png"),
+      projectName: "AHEAD Review & Tutorial Center",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Ahead Tutorial & Review",
+          url: "https://www.ahead.edu.ph/"
+        },
+        {
+          name: "Ahead Pro",
+          url: "https://www.pro.ahead.edu.ph/"
+        },
+        {
+          name: "Ahead Junior",
+          url: "https://www.junior.ahead.edu.ph/"
+        },
+        {
+          name: "Ahead Alpha",
+          url: "https://www.alpha.ahead.edu.ph/"
+        },
+        {
+          name: "Ahead Online",
+          url: "https://www.online.ahead.edu.ph/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/image 2.png"),
+      projectName: "Balibago Waterworks",
+      projectDesc: "Below are the Projects I worked under the Balibago waterworks System Inc. (BWSI)",
+      footerLink: [
+        {
+          name: "Performance Evaluation v2",
+          url: "#"
+        },
+        {
+          name: "Revenue Center Information System (RCIS)",
+          url: "#"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -248,55 +325,84 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "MTA: Security Fundamental - Certified 2019",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Earners of the MTA: Security Fundamentals certification have demonstrated fundamental security knowledge and skills. The MTA program provides an appropriate entry point to a future career in technology.",
+      image: require("./assets/images/MTA-Security-Fundamentals-2019.4afd2e2a77a5c1006885.png"),
+      imageAlt: "MTA 2019",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Credly Certification",
+          url: "https://www.credly.com/badges/2c25c097-4def-47f4-9a4c-b12352acb0fb/public_url"
         },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
+      title: "Course belt - Wordpress and Marketing Course - 2020",
+      subtitle:
+        "Wordpress and Marketing Course Seminar attended year 2020.",
+      image: require("./assets/images/wordpress.51915fb37b9e76913fc4.webp"),
+      imageAlt: "Course belt wordpress 2020",
+      footerLink: [
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Wordpress & Marketing Course",
+          url: "https://drive.google.com/file/d/1Z45WWYBA_JyYym6dEiPrPutghKz7XWXh/view"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "STEP UP: Computer System Servicing - Nov 2023",
+      subtitle: "Rendered 40 hours of training in Skills Trainings and Enhancement Program for UP Diliman Employees (STEP UP) on Computer Systems Servicing",
+      image: require("./assets/images/HRDO l&d logo_2023.66cf241ba2d998ad7d27.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "STEP UP: Computer System Servicing", url: "https://drive.google.com/file/d/12G4wVphpwjJt23GMVb98zNEGXy-KXAPP/view"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "UPHRDO: SWOT Analysis Workshop",
+          url: "https://drive.google.com/file/d/1pxpCJ8dTABkA5Ui-x9YTb1ZmD1kqAHj1/view"
+        },
+        {
+          name: "UPHRDO: Security and Privacy of Personal Information",
+          url: "https://drive.google.com/file/d/1x_vsKs90lnK0HwNh-a0m8RzxYP8LxvXU/view"
+        },
+        {
+          name: "UPHRDO: Introduction to Workplace Safety and Health",
+          url: "https://drive.google.com/file/d/110E97ALNa9ShADjU-HiZNgntNycU3o9h/view"
+        },
+        {
+          name: "UPHRDO: The UPPO Certification Program",
+          url: "https://drive.google.com/file/d/1e_l7fWkUhb6wA5ZTZR2vU0ynu05xR8se/view"
         }
+      ]
+    },
+    {
+      title: "SOFTCON 2025",
+      subtitle: "Agentic Ignition: Powering the future of software",
+      image: require("./assets/images/SOFTCON-Logo.png"),
+      imageAlt: "Softcon Logo",
+      footerLink: [
+        {name: "Certificate of Attendance", url: "https://drive.google.com/file/d/1OqdMigyOQJ7QZb6r7vc977XV3BhWWRtG/view?usp=sharing"}
+      ]
+    },
+    {
+      title: "UDEMY",
+      subtitle: "AI Automation: Build LLM Apps & AI-agents with n8n & API's",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {name: "Certificate of Completion", url: "https://www.udemy.com/certificate/UC-0181ae23-b180-46d3-a8c8-58eb6307b94d/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"}
       ]
     }
   ],
@@ -324,7 +430,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +449,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +462,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,7 +471,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -373,17 +479,17 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "rsinco20@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
