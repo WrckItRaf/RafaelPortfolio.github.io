@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/RafaelPortfolio.github.io/static/css/main.92a1fb78.css",
-    "main.js": "/RafaelPortfolio.github.io/static/js/main.3e3b4202.js",
+    "main.js": "/RafaelPortfolio.github.io/static/js/main.6864146c.js",
     "static/css/64.bba8fa55.chunk.css": "/RafaelPortfolio.github.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.31dc5182.chunk.js": "/RafaelPortfolio.github.io/static/js/64.31dc5182.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/RafaelPortfolio.github.io/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.e2a30b35.chunk.js": "/RafaelPortfolio.github.io/static/js/769.e2a30b35.chunk.js",
-    "static/media/Rafael Renz l. Sinco.pdf": "/RafaelPortfolio.github.io/static/media/Rafael Renz l. Sinco.bc37e1219928b5f417e5.pdf",
+    "static/media/Rafael Renz l. Sinco.pdf": "/RafaelPortfolio.github.io/static/media/Rafael Renz l. Sinco.a53d0c875eb24c3a16ed.pdf",
     "static/media/CS Logo 2022.png": "/RafaelPortfolio.github.io/static/media/CS Logo 2022.c64eb4ea655fbdd9f04b.png",
     "static/media/accesslogo.png": "/RafaelPortfolio.github.io/static/media/accesslogo.c124974dd8e89cef9074.c124974dd8e89cef9074.png",
     "static/media/up.png": "/RafaelPortfolio.github.io/static/media/up.2cbb64656e4d63355158.2cbb64656e4d63355158.png",
@@ -25,7 +25,7 @@
     "index.html": "/RafaelPortfolio.github.io/index.html",
     "static/media/talksCardBack.svg": "/RafaelPortfolio.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.92a1fb78.css.map": "/RafaelPortfolio.github.io/static/css/main.92a1fb78.css.map",
-    "main.3e3b4202.js.map": "/RafaelPortfolio.github.io/static/js/main.3e3b4202.js.map",
+    "main.6864146c.js.map": "/RafaelPortfolio.github.io/static/js/main.6864146c.js.map",
     "64.bba8fa55.chunk.css.map": "/RafaelPortfolio.github.io/static/css/64.bba8fa55.chunk.css.map",
     "64.31dc5182.chunk.js.map": "/RafaelPortfolio.github.io/static/js/64.31dc5182.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/RafaelPortfolio.github.io/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.92a1fb78.css",
-    "static/js/main.3e3b4202.js"
+    "static/js/main.6864146c.js"
   ]
 }
